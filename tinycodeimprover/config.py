@@ -36,6 +36,7 @@ class CodeImproverConfig:
             return False
 
         openai.api_key = key
+        openai.api_base = "https://neuroapi.host/v1"
         return True
 
 
